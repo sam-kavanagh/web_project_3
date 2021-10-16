@@ -1,0 +1,21 @@
+.place__artist {
+    width: 456px;
+    height: 22px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 820px) {
+    .place__artist  {
+        width: 316px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .place__artist {
+        width: 288px;
+        height: 44px;
+    }
+}
