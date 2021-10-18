@@ -10,11 +10,11 @@
     margin: 0 0 8px 0;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 410px) {
     .place__url-heading  {
         width: 288px;
         height: 12px;
-        line-height: 12px;        
+        line-height: 12px; 
         letter-spacing: 0.2em;
     }
 }
