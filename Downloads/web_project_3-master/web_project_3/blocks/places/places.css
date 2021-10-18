@@ -10,7 +10,7 @@
     }
 }
  
- @media screen and (max-width: 360px) {
+ @media screen and (max-width: 410px) {
     .places {
         width: 320px;
         height: 1138px;

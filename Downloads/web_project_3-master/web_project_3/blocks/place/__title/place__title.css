@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 410px) {
     .place__title{
         width: 288px;
         height: 35px;
