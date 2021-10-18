@@ -1,0 +1,19 @@
+.place__website {
+    align-self: flex-end;
+    grid-area: website;
+    margin: 0;
+}
+
+@media screen and (max-width: 820px) {
+    .place__text {
+         width: 352px;
+         height: 260px;
+     }
+ }
+ 
+ @media screen and (max-width: 360px) {
+    .place__text {
+         width: 288px;
+         height: 286px;
+     }
+ }

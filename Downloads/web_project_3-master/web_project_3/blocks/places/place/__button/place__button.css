@@ -1,0 +1,22 @@
+.place__button {
+    width: fit-content;
+    height: max-content;
+    grid-area: button;
+    background: #0278FE;
+    border-radius: 4px;
+    grid-area: button;
+    padding: 13px 20px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 80px 0;
+}   
+
+.place__button::visit {
+    width: 97px;
+    height: 22px;
+    color;background: #0063D2;
+}

@@ -1,0 +1,29 @@
+.place {
+    max-width: 984px;
+    min-height: 756px;
+    display: grid;
+    grid-template-areas: 
+        "title website"
+        "image text"
+        "button text";
+    grid-gap: 48px 40px;
+    grid-template-rows: min-content min-content 1fr;
+    grid-template-columns: 460px 1fr;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 820px) {
+    .place {
+        grid-gap: 48px 28px;
+        grid-template-columns: 340px 1fr;
+        margin-right: 0;
+    }
+}
+
+ @media screen and (max-width: 360px) {
+    .place {
+        grid-template-columns: 320px 1fr;
+    }
+}

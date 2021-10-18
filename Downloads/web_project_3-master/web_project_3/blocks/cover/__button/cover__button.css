@@ -1,0 +1,15 @@
+
+.cover__button {
+    text-align: center;
+    align-self: center;
+    background: #0278FE;
+    border-radius: 4px;
+    margin: 0;
+    padding: 13px 20px;
+}
+
+.cover__button::visit {
+    width: 97px;
+    height: 22px;
+    background-color: #0063D2;
+}
