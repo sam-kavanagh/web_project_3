@@ -5,7 +5,6 @@
     align-self: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 442px;
     grid-gap: 16px 16px;
     padding: 118px 0 92px 0;
     margin: 0;
@@ -24,6 +23,6 @@
     .photo-grid  {
         width: 288px;
         height: 216px;
-        grid-template-columns: (1,1fr);
+        grid-template-columns: 288px 1fr;
     }
 }
