@@ -16,13 +16,17 @@
         height: 1104px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 101px;
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 410px) {
     .photo-grid  {
         width: 288px;
         height: 216px;
-        grid-template-columns: 288px 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 64px;
+        padding: 0;
     }
 }
