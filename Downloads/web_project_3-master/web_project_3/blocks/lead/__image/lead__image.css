@@ -6,7 +6,7 @@
     margin: 64px 148px 0 148px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 880px) {
     .lead__image {
         width: 768px;
         height: 450px;

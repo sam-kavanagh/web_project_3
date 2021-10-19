@@ -4,16 +4,16 @@
     margin: 0;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 880px) {
     .place__text {
          width: 352px;
-         height: 260px;
+         margin-top: 73px;
      }
  }
  
  @media screen and (max-width: 410px) {
     .place__text {
          width: 288px;
-         height: 286px;
+         margin: 0 0 30px 0;
      }
  }

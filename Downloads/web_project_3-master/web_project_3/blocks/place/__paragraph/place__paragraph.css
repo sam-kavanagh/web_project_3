@@ -2,7 +2,6 @@
     font-size: 18px;
     line-height: 163%;
     grid-area: paragraphs;
-    height: 174px;
     margin: 0;
 }
 
@@ -10,16 +9,14 @@
     margin-top: 25px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 880px) {
    .place__paragraph {
     width: 352px;
-    height: 208px;
     font-size: 16px;
     line-height: 163%;
    }
    .place__paragraph:nth-child(2){
     width: 352px;
-    height: 234px;
     font-size: 16px;
     line-height: 163%;
    }
@@ -28,14 +25,12 @@
 @media screen and (max-width: 410px) {
     .place__paragraph {
         width: 288px;
-        height: 234px;
         font-size: 16px;
         line-height: 163%;
        }
 
     .place__paragraph:nth-child(2) { 
         width: 288px;
-        height: 286px;
         font-size: 16px;
         line-height: 163%;
        }
