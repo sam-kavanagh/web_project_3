@@ -24,6 +24,5 @@
  @media screen and (max-width: 410px) {
     .place {
         display: block;
-        max-width: 320px;
     }
 }

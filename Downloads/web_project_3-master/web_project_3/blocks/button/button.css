@@ -17,3 +17,15 @@
 .button:hover {
     background-color: #0063D2;
 }
+
+@media screen and (max-width: 880px) {
+    .button {
+        margin: 0 0 0 24px;
+    }
+ }
+
+@media screen and (max-width: 410px) {
+    .button {
+        margin: 0 0 0 16px;
+    }
+}

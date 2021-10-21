@@ -3,17 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 100%;
-}
-
-@media screen and (max-width: 880px) {
-    .lead {
-        width: 768px;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .lead  {
-        width: 288px;
-    }
+    max-width: 984px;
+    width: 100%;
 }

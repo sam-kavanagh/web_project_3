@@ -11,26 +11,25 @@
 
 @media screen and (max-width: 880px) {
    .place__paragraph {
-    width: 352px;
     font-size: 16px;
     line-height: 163%;
+    padding: 0 0 0 28px;
    }
+
    .place__paragraph:nth-child(2){
-    width: 352px;
     font-size: 16px;
     line-height: 163%;
+    padding: 0 0 0 28px;
    }
 }
 
 @media screen and (max-width: 410px) {
     .place__paragraph {
-        width: 288px;
         font-size: 16px;
         line-height: 163%;
        }
 
     .place__paragraph:nth-child(2) { 
-        width: 288px;
         font-size: 16px;
         line-height: 163%;
        }

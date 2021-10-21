@@ -9,22 +9,20 @@
 
 @media screen and (max-width: 880px) {
     .place__title{
-        max-width: 340px;
         font-weight: 900;
         font-size: 42px;
         line-height: 46px;
-        padding: 0;
-        margin: 0 28px 0 24px;
+        margin: 0;
+        padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 410px) {
     .place__title{
-        max-width: 288px;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         padding: 0;
-        margin: 48px 0 0 0;
+        margin: 64px 0 0 0;
     }
 }

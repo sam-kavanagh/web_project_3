@@ -9,9 +9,10 @@
     background-repeat: no-repeat;
     max-width: 1184px;
     min-height: 740px;
-    z-index: 0;
-    margin-top: 0;
     width: 100%;
+    z-index: 0;
+    margin: 12px 0 92px 0;
+    padding: 0 48px 0 48px;
 }
 
 .cover::before {
@@ -32,14 +33,16 @@
 
 @media screen and (max-width:880px) {
     .cover {
-        width: 768px;
         min-height: 746px;
+        margin: 12px 0 88px 0;
+        padding: 0 auto;
     }
 }
  
  @media screen and (max-width: 410px) {
     .cover {
-        width: 320px;
         min-height: 254px;
+        margin: 64px 0 64px 0;
+        padding: 0 auto;
      }
  }

@@ -1,16 +1,5 @@
 .photo-grid__item {
-    max-width: 284px;
+    width: 100%;
 }
 
-@media screen and (max-width: 880px) {
-    .photo-grid__item {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .photo-grid__item {
-        max-width: 288px;
-    }
-}
 
