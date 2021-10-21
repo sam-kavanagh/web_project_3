@@ -2,19 +2,16 @@
     max-width: 984px;
     text-align: left;
     margin-top: 92px;
-    width: 100%;
 }
 
 @media screen and (max-width: 880px) {
     .intro {
-        width: 100%;
         margin: 88px 24px;
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 544px) {
     .intro {
-        width: 100%;
         margin: 64px 16px 90px 16px;
     }
 }

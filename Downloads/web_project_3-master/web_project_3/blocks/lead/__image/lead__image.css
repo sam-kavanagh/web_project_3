@@ -1,17 +1,5 @@
 .lead__image {
     mix-blend-mode: luminosity;
     margin: 64px 148px 0 148px;
+    width: 100%;
 }
-
-@media screen and (max-width: 880px) {
-    .lead__image {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .lead__image {
-        width: 100%;
-    }
-}
-

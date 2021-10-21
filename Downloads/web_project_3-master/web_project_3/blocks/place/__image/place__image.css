@@ -6,13 +6,11 @@
 
 @media screen and (max-width: 880px) {
     .place__image {
-        padding: 0 24px;
+        margin: 0 0 0 24px;
     }
  }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 544px) {
     .place__image {
-        padding: 0 16px;
-    }
+        margin: 0;
 }
-

@@ -4,3 +4,14 @@
     line-height: 16px;
     text-align: right;
 }
+
+@media screen and (max-width: 880px) {
+    .footer__copyright {
+        margin: 0;
+    }
+ }
+
+@media screen and (max-width: 544px) {
+    .footer__copyright {
+        margin: 0;
+}

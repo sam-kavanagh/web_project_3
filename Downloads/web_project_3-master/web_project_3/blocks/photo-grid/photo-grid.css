@@ -5,24 +5,21 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
-    padding: 0 48px;
-    margin: 118px 0 0 0;
+    margin: 118px 48px 0 48px;
 }
 
 @media screen and (max-width: 880px) {
     .photo-grid  {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        margin: 0 0 101px 0;
-        padding: 0 24px;
+        margin: 0 24px 101px 24px;
     }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 544px) {
     .photo-grid  {
         grid-template-columns: repeat(1, 1fr);
-        margin: 0;
-        padding: 0 16px;
+        margin: 0 16px;
         grid-gap: 15px;
     }
 }
