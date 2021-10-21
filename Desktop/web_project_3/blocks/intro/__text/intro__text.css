@@ -23,6 +23,7 @@
     .intro__text:nth-child(3) {
         margin: 10px 0 32px 0;
     }
+}
 
 @media screen and (max-width: 544px) {
     .intro__text {
