@@ -1,0 +1,5 @@
+.lead__image {
+    mix-blend-mode: luminosity;
+    margin: 64px 148px 0 148px;
+    width: 100%;
+}

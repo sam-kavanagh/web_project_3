@@ -1,0 +1,48 @@
+.cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../images/__background.png);
+    background-repeat: no-repeat;
+    max-width: 1184px;
+    min-height: 740px;
+    width: 100%;
+    z-index: 0;
+    margin: 12px 48px 92px 48px;
+    padding: 0;
+}
+
+.cover::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    min-height: 100%;
+    background: #2A2C2F;
+    transition: 0.3s;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.cover:hover::before {
+    background: #2A2C2F;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:880px) {
+    .cover {
+        min-height: 746px;
+        margin: 92px 0 88px 0;
+        padding: 0;
+    }
+}
+ 
+ @media screen and (max-width: 544px) {
+    .cover {
+        min-height: 254px;
+        margin: 0 0 64px 0;
+        padding: 0;
+     }
+ }
