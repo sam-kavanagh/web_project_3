@@ -1,0 +1,10 @@
+.element__heart-button {
+    background-image: url(../../../images/Vector.svg);
+    Width: 21px;
+    height: 19px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+    background-position: center;
+    border: none;
+}

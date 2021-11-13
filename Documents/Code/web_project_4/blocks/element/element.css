@@ -1,0 +1,7 @@
+.element {
+    background-image: url(../../images/Rectangle.svg);
+    width: 282px;
+    height: 361px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
