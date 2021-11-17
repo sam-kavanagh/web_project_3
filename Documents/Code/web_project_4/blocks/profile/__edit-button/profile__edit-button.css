@@ -1,4 +1,4 @@
-.profile__edit-button{
+.profile__edit-button {
     background-image: url(../../../images/Edit\ Button.svg);
     background-color: transparent;
     width: 24px;
@@ -8,3 +8,16 @@
     box-sizing: border-box;
     margin-left: 18px;
 }
+
+.profile__edit-button:hover {
+    opacity: 60%;
+}
+
+ @media screen and (max-width: 730px) {
+    .profile__edit-button {
+        justify-self: flex-end;
+        width: 18px;
+        height: 18px;
+        margin: 0;
+    }
+}   

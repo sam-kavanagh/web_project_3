@@ -1,12 +1,12 @@
-.modal {
-    position: absolute;
+.popup {
+    position: fixed;
+    display: none;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #000;
-    opacity: 0.5;
-    display: none;
+    background-color:rgba(0, 0, 0, 0.15);
     align-items: center;
     justify-content: center;
 }
+

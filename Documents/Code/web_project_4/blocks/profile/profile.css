@@ -2,4 +2,23 @@
     display: flex;
     position: relative;
     max-width: 880px;
+    flex-direction: row;
+    margin: 0;
+}
+
+ @media screen and (max-width: 910px) {
+    .profile {
+        margin: 0;
+        width: 587px;
+    }
+}
+
+ @media screen and (max-width: 730px) {
+    .profile {
+        display: block;
+        margin: 38.25px 19px 0 19px;
+        width: 282px;
+        height: 286px;
+        padding: 0;
+    }
 }
